@@ -66,7 +66,7 @@ Cartes.io is a platform initially used to report incidents that may be dangerous
 
 1. Create and manage maps and markers right from the admin dashboard.
 2. Discover awesome public and interactive maps made by the community.
-2. Place your maps anywhere you want. You can also let your website visotrs contribute to your maps, if you want.
+3. Place your maps anywhere on your site with shortcodes. You can also let your website visitors contribute to your maps, if you want.
 
 == Changelog ==
 
