@@ -238,10 +238,10 @@ class CartesMap
     {
         $data = [
             'token' => $this->getMapToken(),
-            'title' => $_REQUEST['title'],
-            'description' => $_REQUEST['description'],
-            'privacy' => $_REQUEST['privacy'],
-            'users_can_create_markers' => $_REQUEST['users_can_create_markers'],
+            'title' => sanitize_text_field($_REQUEST['title']),
+            'description' => sanitize_textarea_field($_REQUEST['description']),
+            'privacy' => sanitize_text_field($_REQUEST['privacy']),
+            'users_can_create_markers' => sanitize_text_field($_REQUEST['users_can_create_markers']),
             // 'options.default_expiration_time' => 'nullable|numeric|between:1,525600',
             // 'options.limit_to_geographical_body_type' => 'nullable|in:land,water,no',
         ];

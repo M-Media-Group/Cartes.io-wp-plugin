@@ -4,7 +4,7 @@ Plugin Name: Maps by Cartes.io - live community and private maps for anything
 Plugin URI: https://cartes.io/
 Description: Required Cartes.io plugin.
 Author: M Media
-Version: 1.7.2
+Version: 1.0.0
 Author URI: https://profiles.wordpress.org/Mmediagroup/
 License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -231,7 +231,7 @@ class Cartes
 
     public function init_list_table()
     {
-        $this->maps_table_class = new MapsList;
+        $this->maps_table_class = new CartesMapsList;
     }
 
     public function admin_post_create_new_map($skip_nonce = false)

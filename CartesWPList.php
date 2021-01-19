@@ -6,7 +6,7 @@ if (!class_exists('WP_List_Table')) {
     require_once ABSPATH . 'wp-admin/includes/class-wp-list-table.php';
 }
 
-class MapsList extends WP_List_Table
+class CartesMapsList extends WP_List_Table
 {
 
     /** Class constructor */
