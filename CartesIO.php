@@ -256,7 +256,7 @@ class Cartes
     public function admin_post_delete_map()
     {
         // do something
-        $uuid = $_REQUEST['uuid'];
+        $uuid = sanitize_text_field($_REQUEST['uuid']);
         if (!wp_verify_nonce($_REQUEST['_wpnonce'], "cartes_edit_map-{$uuid}")) {
             wp_die('Uh oh - something went wrong creating a new map! Try to go to Maps, then try to do what you did before.');
         }
@@ -275,7 +275,7 @@ class Cartes
     public function admin_post_edit_map()
     {
         // do something
-        $uuid = $_REQUEST['uuid'];
+        $uuid = sanitize_text_field($_REQUEST['uuid']);
         // if (!wp_verify_nonce($_REQUEST['_wpnonce'], "cartes_edit_map-{$uuid}")) {
         //     wp_die('Uh oh - something went wrong creating a new map! Try to go to Maps, then try to do what you did before.');
         // }
@@ -299,7 +299,7 @@ class Cartes
 
         // $markers = $map->getMarkers();
         if (isset($_GET['uuid'])) {
-            return $this->cartes_single_map_page($_GET['uuid']);
+            return $this->cartes_single_map_page(sanitize_text_field($_GET['uuid']));
         }
         $nonce = wp_create_nonce('cartes_create_map');
 
