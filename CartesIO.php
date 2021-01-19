@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Cartes.io maps - live community and private maps for anything
+Plugin Name: Maps by Cartes.io - live community and private maps for anything
 Plugin URI: https://cartes.io/
 Description: Required Cartes.io plugin.
 Author: M Media
