@@ -177,7 +177,7 @@ class Cartes
 
     public function admin_scripts()
     {
-        wp_enqueue_style('custom_wp_admin_css', plugins_url('css/admin-style.css', __FILE__), array(), cartes_VER, 'all');
+        wp_enqueue_style('custom_wp_admin_css', plugins_url('assets/css/admin-style.css', __FILE__), array(), cartes_VER, 'all');
     }
 
     /**
