@@ -3,7 +3,7 @@ Contributors: mmediagroup
 Donate link: https://github.com/sponsors/M-Media-Group
 Tags: cartes, cartes.io, leaflet, map, maps, mapping, markers, google maps, community maps
 Requires at least: 4.6
-Tested up to: 5.6
+Tested up to: 5.7
 Requires PHP: 7.2
 Stable tag: trunk
 License: GPLv2 or later
@@ -70,12 +70,15 @@ Cartes.io is a platform initially used to report incidents that may be dangerous
 
 == Changelog ==
 
+= 1.0.1 =
+* Version bump.
+
 = 1.0 =
 * Initial commit.
 
 == Upgrade Notice ==
-= 1.0 =
-If you're not on 1.0 - are you really living?
+= 1.0.1 =
+If you're not on 1.0.1 - are you really living?
 
 == Privacy policy ==
 Location data can be quite sensitive, so we take great care in protecting your privacy. Here's a link to the Cartes.io [privacy policy](https://cartes.io/privacy-policy), the service provider.
