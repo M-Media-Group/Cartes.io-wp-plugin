@@ -273,6 +273,9 @@ class CartesMap
             'method' => $request_method,
             'body' => $data,
             'blocking' => true,
+            'headers' => [
+                'Accept' => 'application/json'
+            ],
         ]);
         if (is_wp_error($response)) {
             $error_message = $response->get_error_message();
