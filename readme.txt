@@ -3,7 +3,7 @@ Contributors: mmediagroup
 Donate link: https://github.com/sponsors/M-Media-Group
 Tags: cartes, cartes.io, leaflet, map, maps, mapping, markers, google maps, community maps
 Requires at least: 4.6
-Tested up to: 5.7
+Tested up to: 6.0.1
 Requires PHP: 7.2
 Stable tag: trunk
 License: GPLv2 or later
