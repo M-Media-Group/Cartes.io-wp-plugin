@@ -4,7 +4,7 @@ Plugin Name: Maps by Cartes.io - live community and private maps for anything
 Plugin URI: https://cartes.io/
 Description: Create free anonymous live maps on your website. You can also unlock your maps so that other people can contribute to it.
 Author: M Media
-Version: 1.0.1
+Version: 1.0.2
 Author URI: https://profiles.wordpress.org/Mmediagroup/
 License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -25,7 +25,7 @@ along with {Plugin Name}. If not, see {License URI}.
  */
 
 if (!defined('cartes_VER')) {
-    define('cartes_VER', '1.0.0');
+    define('cartes_VER', '1.0.2');
 }
 
 require_once 'CartesMap.php';
